@@ -29,7 +29,7 @@ const BookingSection = () => {
         <div className="max-w-2xl mx-auto">
           <iframe 
             src="https://meet.dorsetgrowth.com/widget/booking/Alij8mHLPjxNUuNfsyDe" 
-            style={{ width: '100%', border: 'none', overflow: 'hidden', minHeight: '600px' }} 
+            style={{ width: '100%', border: 'none', overflow: 'hidden' }} 
             scrolling="no" 
             id="Alij8mHLPjxNUuNfsyDe_1757331658732"
             title="Book 15-minute consultation"
