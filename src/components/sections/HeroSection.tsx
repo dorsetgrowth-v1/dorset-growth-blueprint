@@ -44,7 +44,7 @@ const HeroSection = () => {
             <Button 
               variant="cta" 
               size="lg" 
-              className="text-sm md:text-lg px-4 md:px-8 py-3 md:py-4 h-auto mb-4 w-full max-w-md mx-auto"
+              className="text-sm md:text-lg px-6 md:px-12 py-4 md:py-5 mb-4 w-full max-w-md mx-auto"
               onClick={scrollToBooking}
             >
               Book Your 15-Min Virtual Coffee

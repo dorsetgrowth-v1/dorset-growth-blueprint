@@ -56,7 +56,7 @@ const GuaranteeSection = () => {
                     <div className="font-semibold mb-1">Immediate actionable insights</div>
                   </div>
                 </div>
-                <Button variant="cta" size="lg" className="text-sm md:text-lg px-4 md:px-8 py-3 md:py-4 h-auto mb-4 w-full max-w-md mx-auto" onClick={scrollToBooking}>
+                <Button variant="cta" size="lg" className="text-sm md:text-lg px-6 md:px-12 py-4 md:py-5 mb-4 w-full max-w-md mx-auto" onClick={scrollToBooking}>
                   Schedule Your Free 15-Min Coffee Chat
                 </Button>
                 <div className="text-white/80 text-sm">
