@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 const AboutSection = () => {
   const achievements = [
     { number: "£600k", description: "Scaled stika.co to £600k/year and successfully exited" },
-    { number: "20+", description: "Years of hands-on business building experience" },
+    { number: "25+", description: "Years of hands-on business building experience" },
     { number: "£7M+", description: "Generated for clients via proven LinkedIn Outreach strategies" },
     { number: "170+", description: "B2B businesses transformed with systematic growth" }
   ];
@@ -46,7 +46,7 @@ const AboutSection = () => {
                 I Know Exactly How You Feel
               </h4>
               <p className="text-gray-600 mb-4">
-                I've been where you are. Twenty years ago, I was grinding away, working endless hours 
+                I've been where you are. Twenty-five years ago, I was grinding away, working endless hours 
                 in my business instead of on it. The stress, the uncertainty, the constant firefighting — I get it.
               </p>
               <p className="text-gray-600 mb-4">
@@ -73,7 +73,7 @@ const AboutSection = () => {
               <div className="bg-blue-50 border-l-4 border-secondary p-4 rounded-r-lg">
                 <p className="text-gray-700 font-medium">
                   <strong>The difference?</strong> I don't just give you theory. I give you step-by-step systems 
-                  that I've personally used and refined over two decades of building real businesses.
+                  that I've personally used and refined over twenty-five years of building real businesses.
                 </p>
               </div>
             </div>

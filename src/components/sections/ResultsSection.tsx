@@ -19,14 +19,14 @@ const ResultsSection = () => {
     },
     {
       title: "Experience",
-      metric: "20+ Years",
-      description: "Two decades of hands-on business building and scaling experience"
+      metric: "25+ Years",
+      description: "Twenty-five years of hands-on business building and scaling experience"
     }
   ];
 
   const credentials = [
     "Entrepreneurs Circle Certified Coach",
-    "20+ Years Business Building Experience", 
+    "25+ Years Business Building Experience", 
     "Multiple Business Exits",
     "Proven LinkedIn Outreach Expert"
   ];
