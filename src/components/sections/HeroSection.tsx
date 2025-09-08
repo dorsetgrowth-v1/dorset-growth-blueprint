@@ -1,10 +1,20 @@
 import { Button } from "@/components/ui/button";
+import durdleDoorBackground from "@/assets/durdle-door-background.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-hero-gradient text-white relative overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 bg-black/10 backdrop-blur-[0.5px]" />
+    <section className="min-h-screen text-white relative overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${durdleDoorBackground})` }}
+      />
+      
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-hero-gradient opacity-85" />
+      
+      {/* Additional Overlay for Text Readability */}
+      <div className="absolute inset-0 bg-black/20" />
       
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
