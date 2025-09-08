@@ -5,6 +5,7 @@ import ProcessSection from "@/components/sections/ProcessSection";
 import TransformationSection from "@/components/sections/TransformationSection";
 import ResultsSection from "@/components/sections/ResultsSection";
 import GuaranteeSection from "@/components/sections/GuaranteeSection";
+import BookingSection from "@/components/sections/BookingSection";
 
 const Index = () => {
   return (
@@ -13,6 +14,7 @@ const Index = () => {
       <ProblemsSection />
       <AboutSection />
       <ProcessSection />
+      <BookingSection />
       <TransformationSection />
       <ResultsSection />
       <GuaranteeSection />
