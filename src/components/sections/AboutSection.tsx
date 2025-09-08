@@ -27,22 +27,17 @@ const AboutSection = () => {
           
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="text-center md:text-left">
-              <div className="relative inline-block mb-6">
+              <div className="inline-block mb-6">
                 <img 
                   src="/lovable-uploads/59d347b7-8221-45df-b8f5-65cada2f287a.png" 
                   alt="Alex Smith - Business Growth Coach" 
                   className="w-80 h-80 object-cover rounded-2xl shadow-xl mx-auto md:mx-0"
                 />
-                <div className="absolute -bottom-4 -right-4 bg-white rounded-full p-3 shadow-lg">
-                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold text-sm">✓</span>
-                  </div>
-                </div>
               </div>
               <img 
                 src="/lovable-uploads/e0e810a3-5402-48a0-93e5-0b94f7c1cc4c.png" 
                 alt="Entrepreneurs Circle Certified Coach" 
-                className="inline-block h-16 w-auto"
+                className="w-80 h-auto mx-auto md:mx-0"
               />
             </div>
             
