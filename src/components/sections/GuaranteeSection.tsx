@@ -2,6 +2,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 const GuaranteeSection = () => {
+  const scrollToBooking = () => {
+    document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
@@ -52,7 +56,7 @@ const GuaranteeSection = () => {
                     <div className="font-semibold mb-1">Immediate actionable insights</div>
                   </div>
                 </div>
-                <Button variant="cta" size="lg" className="text-lg px-8 py-4 h-auto mb-4">
+                <Button variant="cta" size="lg" className="text-lg px-8 py-4 h-auto mb-4" onClick={scrollToBooking}>
                   Schedule Your Free 15-Min Coffee Chat
                 </Button>
                 <div className="text-white/80 text-sm">

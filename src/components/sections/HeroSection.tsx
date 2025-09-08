@@ -2,6 +2,14 @@ import { Button } from "@/components/ui/button";
 import durdleDoorBackground from "@/assets/durdle-door-background.jpg";
 
 const HeroSection = () => {
+  const scrollToBooking = () => {
+    document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const scrollToAbout = () => {
+    document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="min-h-screen text-white relative overflow-hidden">
       {/* Background Image */}
@@ -37,6 +45,7 @@ const HeroSection = () => {
               variant="cta" 
               size="lg" 
               className="text-lg px-8 py-4 h-auto mb-4"
+              onClick={scrollToBooking}
             >
               Book Your 15-Min Virtual Coffee
             </Button>
@@ -62,7 +71,7 @@ const HeroSection = () => {
           </div>
           
           {/* Secondary CTA */}
-          <Button variant="cta-secondary" size="lg" className="text-lg px-8 py-3">
+          <Button variant="cta-secondary" size="lg" className="text-lg px-8 py-3" onClick={scrollToAbout}>
             Learn More
           </Button>
         </div>
