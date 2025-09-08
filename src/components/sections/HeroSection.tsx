@@ -60,10 +60,11 @@ const HeroSection = () => {
       
       {/* Brand Logo */}
       <div className="absolute top-8 left-8">
-        <div className="text-2xl font-bold text-white">
-          Dorset<br />
-          <span className="text-white/90">Growth</span>
-        </div>
+        <img 
+          src="/lovable-uploads/4cfd5d71-855e-4b22-aa48-82e859b3ce30.png" 
+          alt="Dorset Growth Logo" 
+          className="h-16 w-auto"
+        />
       </div>
     </section>
   );
