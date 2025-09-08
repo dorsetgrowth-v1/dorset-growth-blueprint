@@ -26,7 +26,7 @@ const BookingSection = () => {
           </p>
         </div>
         
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-4xl mx-auto">
           <iframe 
             src="https://meet.dorsetgrowth.com/widget/booking/Alij8mHLPjxNUuNfsyDe" 
             style={{ width: '100%', border: 'none', overflow: 'hidden' }} 
