@@ -39,9 +39,11 @@ const AboutSection = () => {
                   </div>
                 </div>
               </div>
-              <div className="inline-block bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold">
-                Entrepreneurs Circle Certified Coach
-              </div>
+              <img 
+                src="/lovable-uploads/e0e810a3-5402-48a0-93e5-0b94f7c1cc4c.png" 
+                alt="Entrepreneurs Circle Certified Coach" 
+                className="inline-block h-16 w-auto"
+              />
             </div>
             
             <div>
