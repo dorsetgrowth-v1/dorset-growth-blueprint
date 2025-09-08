@@ -44,7 +44,7 @@ const HeroSection = () => {
             <Button 
               variant="cta" 
               size="lg" 
-              className="text-lg px-8 py-4 h-auto mb-4"
+              className="text-sm md:text-lg px-4 md:px-8 py-3 md:py-4 h-auto mb-4 w-full max-w-md mx-auto"
               onClick={scrollToBooking}
             >
               Book Your 15-Min Virtual Coffee
@@ -71,7 +71,7 @@ const HeroSection = () => {
           </div>
           
           {/* Secondary CTA */}
-          <Button variant="cta-secondary" size="lg" className="text-lg px-8 py-3" onClick={scrollToAbout}>
+          <Button variant="cta-secondary" size="lg" className="text-sm md:text-lg px-6 md:px-8 py-2 md:py-3 w-full max-w-xs mx-auto" onClick={scrollToAbout}>
             Learn More
           </Button>
         </div>

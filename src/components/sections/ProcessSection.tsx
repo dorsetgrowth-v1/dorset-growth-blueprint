@@ -71,7 +71,7 @@ const ProcessSection = () => {
             <p className="text-xl mb-8 text-white/90">
               Book your free 15-minute virtual coffee chat today. No sales pitch, just practical insights you can use immediately.
             </p>
-            <Button variant="cta" size="lg" className="text-lg px-8 py-4 h-auto mb-4" onClick={scrollToBooking}>
+            <Button variant="cta" size="lg" className="text-sm md:text-lg px-4 md:px-8 py-3 md:py-4 h-auto mb-4 w-full max-w-md mx-auto" onClick={scrollToBooking}>
               Yes, Book My Free 15-Min Coffee Chat
             </Button>
             <div className="text-white/80 text-sm">
