@@ -26,18 +26,25 @@ const AboutSection = () => {
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
-            <div>
-              <div className="mb-6">
-                <div className="inline-block bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
-                  Entrepreneurs Circle Certified Coach
+            <div className="text-center md:text-left">
+              <div className="relative inline-block mb-6">
+                <img 
+                  src="/lovable-uploads/59d347b7-8221-45df-b8f5-65cada2f287a.png" 
+                  alt="Alex Smith - Business Growth Coach" 
+                  className="w-80 h-80 object-cover rounded-2xl shadow-xl mx-auto md:mx-0"
+                />
+                <div className="absolute -bottom-4 -right-4 bg-white rounded-full p-3 shadow-lg">
+                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
+                    <span className="text-white font-bold text-sm">✓</span>
+                  </div>
                 </div>
-                <ul className="space-y-2 text-gray-600">
-                  <li>✓ Built & sold multiple businesses</li>
-                  <li>✓ 170+ B2B clients coached</li>
-                  <li>✓ £7M+ generated for clients</li>
-                </ul>
               </div>
-              
+              <div className="inline-block bg-primary text-white px-4 py-2 rounded-full text-sm font-semibold">
+                Entrepreneurs Circle Certified Coach
+              </div>
+            </div>
+            
+            <div>
               <h4 className="text-2xl font-bold text-gray-900 mb-4">
                 I Know Exactly How You Feel
               </h4>
@@ -50,6 +57,22 @@ const AboutSection = () => {
                 and successfully exited. More importantly, I've helped 170+ businesses implement these same 
                 systems to generate over £7 million in results.
               </p>
+              
+              <ul className="space-y-3 text-gray-600 mb-6">
+                <li className="flex items-center">
+                  <span className="text-primary mr-3">✓</span>
+                  Built & sold multiple businesses
+                </li>
+                <li className="flex items-center">
+                  <span className="text-primary mr-3">✓</span>
+                  170+ B2B clients coached
+                </li>
+                <li className="flex items-center">
+                  <span className="text-primary mr-3">✓</span>
+                  £7M+ generated for clients
+                </li>
+              </ul>
+              
               <div className="bg-blue-50 border-l-4 border-secondary p-4 rounded-r-lg">
                 <p className="text-gray-700 font-medium">
                   <strong>The difference?</strong> I don't just give you theory. I give you step-by-step systems 
@@ -57,21 +80,21 @@ const AboutSection = () => {
                 </p>
               </div>
             </div>
-            
-            <div className="grid grid-cols-2 gap-6">
-              {achievements.map((achievement, index) => (
-                <Card key={index} className="text-center border-none shadow-lg">
-                  <CardContent className="p-6">
-                    <div className="text-3xl font-bold text-primary mb-2">
-                      {achievement.number}
-                    </div>
-                    <p className="text-sm text-gray-600 leading-relaxed">
-                      {achievement.description}
-                    </p>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {achievements.map((achievement, index) => (
+              <Card key={index} className="text-center border-none shadow-lg">
+                <CardContent className="p-6">
+                  <div className="text-3xl font-bold text-primary mb-2">
+                    {achievement.number}
+                  </div>
+                  <p className="text-sm text-gray-600 leading-relaxed">
+                    {achievement.description}
+                  </p>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </div>
