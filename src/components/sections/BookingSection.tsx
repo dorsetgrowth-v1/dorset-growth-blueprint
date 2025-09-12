@@ -32,7 +32,8 @@ const BookingSection = () => {
             style={{ width: '100%', border: 'none', overflow: 'hidden' }} 
             scrolling="no" 
             id="Alij8mHLPjxNUuNfsyDe_1757331658732"
-            title="Book 15-minute consultation"
+            title="Book your free 15-minute business growth consultation with Alex Smith"
+            aria-label="Booking calendar for free business consultation"
           />
         </div>
       </div>

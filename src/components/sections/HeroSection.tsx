@@ -25,7 +25,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-black/20" />
       
       <div className="container mx-auto px-6 py-20 relative z-10 flex items-center justify-center min-h-screen">
-        <div className="max-w-4xl mx-auto text-center">
+        <article className="max-w-4xl mx-auto text-center">
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Stop Guessing.
@@ -74,15 +74,16 @@ const HeroSection = () => {
           <Button variant="cta-secondary" size="lg" className="text-sm md:text-lg px-6 md:px-8 py-2 md:py-3 w-full max-w-xs mx-auto" onClick={scrollToAbout}>
             Learn More
           </Button>
-        </div>
+        </article>
       </div>
       
       {/* Brand Logo */}
       <div className="absolute top-8 left-8">
         <img 
           src="/lovable-uploads/4cfd5d71-855e-4b22-aa48-82e859b3ce30.png" 
-          alt="Dorset Growth Logo" 
+          alt="Dorset Growth Business Coaching Logo" 
           className="h-16 w-auto"
+          loading="eager"
         />
       </div>
     </section>

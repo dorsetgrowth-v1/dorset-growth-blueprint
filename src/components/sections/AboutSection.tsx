@@ -30,14 +30,16 @@ const AboutSection = () => {
               <div className="inline-block mb-6">
                 <img 
                   src="/lovable-uploads/59d347b7-8221-45df-b8f5-65cada2f287a.png" 
-                  alt="Alex Smith - Business Growth Coach" 
+                  alt="Alex Smith - Business Growth Coach and Entrepreneur with 25+ years experience" 
                   className="w-80 h-80 object-cover rounded-2xl shadow-xl mx-auto md:mx-0"
+                  loading="lazy"
                 />
               </div>
               <img 
                 src="/lovable-uploads/e0e810a3-5402-48a0-93e5-0b94f7c1cc4c.png" 
-                alt="Entrepreneurs Circle Certified Coach" 
+                alt="Entrepreneurs Circle Certified Business Coach Badge - Official Certification" 
                 className="w-80 h-auto mx-auto md:mx-0"
+                loading="lazy"
               />
             </div>
             
