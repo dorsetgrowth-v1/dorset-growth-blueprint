@@ -32,7 +32,7 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/coffee" element={<ExternalRedirect url="https://meet.dorsetgrowth.com/widget/booking/s7VsFwBVA34IuOqFfZWC" />} />
+          <Route path="/coffee" element={<ExternalRedirect url="https://meet.dorsetgrowth.com/widget/booking/Alij8mHLPjxNUuNfsyDe" />} />
           <Route path="/discovery" element={<ExternalRedirect url="https://meet.dorsetgrowth.com/widget/booking/s7VsFwBVA34IuOqFfZWC" />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
