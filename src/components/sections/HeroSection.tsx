@@ -24,7 +24,7 @@ const HeroSection = () => {
       {/* Additional Overlay for Text Readability */}
       <div className="absolute inset-0 bg-black/20" />
       
-      <div className="container mx-auto px-6 py-20 relative z-10 flex items-center justify-center min-h-screen">
+      <div className="container mx-auto px-6 pt-32 pb-20 md:py-20 relative z-10 flex items-center justify-center min-h-screen">
         <article className="max-w-4xl mx-auto text-center">
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
