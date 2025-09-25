@@ -72,6 +72,24 @@ const AboutSection = () => {
                 </li>
               </ul>
               
+              {/* Personal 60-Second Pitch Video */}
+              <div className="mb-6">
+                <h5 className="text-lg font-semibold text-gray-900 mb-3">
+                  Hear From Alex Directly
+                </h5>
+                <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg">
+                  <iframe
+                    src="https://www.youtube.com/embed/l4BzmF-I_6g"
+                    title="Alex Smith's 60-Second Personal Pitch - Dorset Growth Business Coach"
+                    className="absolute inset-0 w-full h-full"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+              </div>
+              
               <div className="bg-blue-50 border-l-4 border-secondary p-4 rounded-r-lg">
                 <p className="text-gray-700 font-medium">
                   <strong>The difference?</strong> I don't just give you theory. I give you step-by-step systems 
