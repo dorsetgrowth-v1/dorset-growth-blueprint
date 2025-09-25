@@ -81,7 +81,9 @@ const ResultsSection = () => {
             </div>
             <div className="text-center">
               <a 
-                href="#" 
+                href="https://entrepreneurscircle.org/coaches-directory/info/alex-smith/" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center text-secondary hover:text-secondary/80 font-medium transition-colors"
               >
                 View Full Entrepreneurs Circle Profile
