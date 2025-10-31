@@ -17,11 +17,11 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    /* Dorset Growth Brand Colors - Inspired by Entrepreneurs Circle */
-    --primary: 0 84% 52%; /* EC Red */
+    /* Dorset Growth Brand Colors */
+    --primary: 0 84% 52%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 217 91% 60%; /* EC Blue */
+    --secondary: 217 91% 60%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
