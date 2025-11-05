@@ -3,19 +3,19 @@ import { Card, CardContent } from "@/components/ui/card";
 const ProblemsSection = () => {
   const problems = [
     {
-      title: "Inconsistent Sales",
-      description: "Revenue goes up and down like a roller coaster. You never know if this month will be good or terrible.",
-      example: "Like Sophie, who had three great months followed by two awful ones..."
+      title: "Searching for Meaning",
+      description: "Success feels hollow. You've achieved business goals but wonder 'Is this it?' Deep down, you're seeking something more.",
+      example: "Building revenue but feeling empty inside..."
     },
     {
-      title: "Overwhelmed & Exhausted", 
-      description: "Working IN the business instead of ON it. Every day feels like firefighting with no time to think strategically.",
-      example: "Juggling family commitments while trying to keep the business afloat..."
+      title: "Faith & Business Disconnect", 
+      description: "You want to honour God in your work but don't know how. Struggling to integrate your faith with daily business decisions.",
+      example: "Feeling torn between Kingdom values and marketplace pressures..."
     },
     {
-      title: "Wasting Time Guessing",
-      description: "Trying random marketing tactics, hoping something will stick. No clear system or strategy that actually works.",
-      example: "Posting on social media, hoping for leads, but nothing consistent happens..."
+      title: "Isolated & Unsupported",
+      description: "Running your business alone without community or spiritual support. No one understands the unique challenges you face.",
+      example: "Longing for authentic connection with like-minded entrepreneurs..."
     }
   ];
 
@@ -24,10 +24,10 @@ const ProblemsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Sound Familiar?
+            Does This Resonate?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Most Dorset business owners face these same challenges every day...
+            Many business leaders face these challenges on their journey...
           </p>
         </div>
         
@@ -50,13 +50,13 @@ const ProblemsSection = () => {
         </div>
         
         <div className="text-center mt-16">
-          <div className="bg-red-50 border-l-4 border-primary p-6 max-w-4xl mx-auto rounded-r-lg">
+          <div className="bg-blue-50 border-l-4 border-secondary p-6 max-w-4xl mx-auto rounded-r-lg">
             <h3 className="text-xl font-bold text-gray-900 mb-2">
-              The Real Cost of Staying Stuck
+              There's a Better Way
             </h3>
             <p className="text-gray-700">
-              Every month you delay getting proper systems in place, you're losing potential revenue, 
-              burning out faster, and missing opportunities that your competitors might be taking advantage of.
+              Imagine running your business with clarity, purpose, and community support — aligned with Kingdom values 
+              and driven by eternal impact. That transformation starts with a conversation.
             </p>
           </div>
         </div>

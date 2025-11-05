@@ -9,21 +9,27 @@ const ProcessSection = () => {
   const steps = [
     {
       number: "1",
-      title: "Book a 15-Min Call",
-      description: "Quick, friendly chat to understand your business and biggest growth challenge right now.",
-      duration: "Takes 2 minutes to book"
+      title: "15-Minute Prayer Call",
+      description: "Start with a confidential conversation — explore your business challenges and spiritual journey.",
+      duration: "Free & confidential"
     },
     {
       number: "2", 
-      title: "Complete Short Assessment",
-      description: "Simple questionnaire about your current situation, goals, and what's been holding you back.",
-      duration: "5 minutes max"
+      title: "Alpha for Business",
+      description: "For those exploring faith or new Christians — discover purpose and meaning through Alpha's proven approach.",
+      duration: "Quarterly cohorts"
     },
     {
       number: "3",
-      title: "Get Your Custom Growth Plan", 
-      description: "Receive a tailored roadmap with specific next steps to grow your business systematically.",
-      duration: "Within 48 hours"
+      title: "FDE 8-Week Foundation", 
+      description: "For Christian entrepreneurs — align your business with biblical principles through Faith Driven Entrepreneur programme.",
+      duration: "8-week study groups"
+    },
+    {
+      number: "4",
+      title: "Local Church Integration",
+      description: "Connect with local church communities for ongoing support, fellowship, and Kingdom impact.",
+      duration: "Ongoing support"
     }
   ];
 
@@ -33,15 +39,15 @@ const ProcessSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Simple 3-Step Process
+              Your Faith & Business Journey
             </h2>
-            <h3 className="text-2xl text-gray-700 mb-4">Here's How It Works</h3>
+            <h3 className="text-2xl text-gray-700 mb-4">Four Steps to Purpose-Driven Business</h3>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              No complicated processes. No long commitments. Just a clear path forward.
+              Whether you're exploring faith or seeking to align your business with Kingdom values, we'll meet you where you are.
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
             {steps.map((step, index) => (
               <Card key={index} className="relative border-none shadow-lg hover:shadow-glow transition-all duration-300">
                 <CardContent className="p-8 text-center">
@@ -66,16 +72,16 @@ const ProcessSection = () => {
           
           <div className="text-center bg-hero-gradient rounded-2xl p-12 text-white">
             <h3 className="text-3xl font-bold mb-4">
-              Ready to Stop Guessing and Start Growing?
+              Ready to Discover Purpose in Your Business?
             </h3>
             <p className="text-xl mb-8 text-white/90">
-              Book your free 15-minute virtual coffee chat today. No sales pitch, just practical insights you can use immediately.
+              Book your free virtual coffee chat today. Explore Alpha for Business or the FDE Programme — discover which path is right for you.
             </p>
             <Button variant="cta" size="lg" className="text-sm md:text-lg px-6 md:px-12 py-4 md:py-5 mb-4 w-full max-w-md mx-auto" onClick={scrollToBooking}>
-              Yes, Book My Free 15-Min Coffee Chat
+              Yes, Book My Free Virtual Coffee
             </Button>
             <div className="text-white/80 text-sm">
-              No obligation • Immediate value • 100% confidential
+              100% confidential • Fully funded programme • No cost to you
             </div>
           </div>
         </div>

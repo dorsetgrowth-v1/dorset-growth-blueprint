@@ -3,32 +3,34 @@ import { Card, CardContent } from "@/components/ui/card";
 const ResultsSection = () => {
   const results = [
     {
-      title: "Personal Success",
-      metric: "£600k/year",
-      description: "Scaled stika.co to £600k annual revenue and successfully exited"
+      title: "Ministry Experience",
+      metric: "35+ Years",
+      description: "Over three decades serving in Baptist and New Frontiers churches in leadership positions"
     },
     {
-      title: "Client Success", 
-      metric: "170+ B2B Clients",
-      description: "Helped over 170 B2B businesses implement systematic growth strategies"
+      title: "Business Success", 
+      metric: "£600k Exit",
+      description: "Built and successfully exited stika.co at £600k annual revenue"
     },
     {
-      title: "Proven ROI",
-      metric: "£7M+ Generated", 
-      description: "Generated over £7 million in additional revenue for clients via LinkedIn Outreach alone"
+      title: "Client Impact",
+      metric: "170+ Leaders", 
+      description: "Coached and mentored over 170 business leaders with systematic growth strategies"
     },
     {
-      title: "Experience",
-      metric: "25+ Years",
-      description: "Twenty-five years of hands-on business building and scaling experience"
+      title: "Proven Results",
+      metric: "£7M+ Generated",
+      description: "Generated over £7 million for clients through proven business systems"
     }
   ];
 
   const credentials = [
-    "25+ Years Business Building Experience", 
-    "Multiple Business Exits",
-    "Proven LinkedIn Outreach Expert",
-    "Systematic Growth Strategies"
+    "35+ Years Church Leadership Experience",
+    "25+ Years Building & Scaling Businesses", 
+    "Multiple Business Exits & Success Stories",
+    "Married with Three Children",
+    "Baptist & New Frontiers Background",
+    "Faith-Driven Business Principles"
   ];
 
   return (
@@ -37,11 +39,11 @@ const ResultsSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Proven Track Record
+              Experience & Background
             </h2>
-            <h3 className="text-2xl text-gray-700 mb-6">Real Results for Real Businesses</h3>
+            <h3 className="text-2xl text-gray-700 mb-6">Ministry, Business & Family</h3>
             <p className="text-xl text-gray-600">
-              Don't just take my word for it. Here's what I've achieved and helped others accomplish.
+              Combining decades of church leadership with proven business success to serve faith-driven entrepreneurs.
             </p>
           </div>
           
@@ -65,7 +67,7 @@ const ResultsSection = () => {
           
           <div className="bg-gray-50 rounded-2xl p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-              Credentials & Qualifications
+              Background & Qualifications
             </h3>
             <div className="grid md:grid-cols-2 gap-4 mb-6">
               {credentials.map((credential, index) => (

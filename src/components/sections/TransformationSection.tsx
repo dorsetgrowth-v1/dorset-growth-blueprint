@@ -3,36 +3,36 @@ import { Card, CardContent } from "@/components/ui/card";
 const TransformationSection = () => {
   const transformations = [
     {
-      from: "Overwhelmed & Reactive",
-      to: "Confident & Proactive", 
-      description: "Stop firefighting and start leading with clarity and purpose."
+      from: "Seeking Meaning",
+      to: "Living with Purpose", 
+      description: "Discover how your business can serve Kingdom purposes and create eternal impact."
     },
     {
-      from: "Inconsistent Revenue",
-      to: "Predictable Growth",
-      description: "Build systems that generate consistent, scalable results month after month."
+      from: "Faith & Work Disconnect",
+      to: "Integrated Leadership",
+      description: "Align your business decisions with biblical principles and godly character."
     },
     {
-      from: "Working IN Business", 
-      to: "Working ON Business",
-      description: "Reclaim your time and focus on strategy while your business runs itself."
+      from: "Isolated & Alone", 
+      to: "Community & Support",
+      description: "Connect with like-minded entrepreneurs who share your values and vision."
     },
     {
-      from: "Struggling to Find Clients",
-      to: "Attracting Ideal Customers", 
-      description: "Implement proven systems to attract and convert your perfect clients."
+      from: "Success Without Fulfilment",
+      to: "Impact with Integrity", 
+      description: "Build a business that honours God, serves others, and creates lasting legacy."
     }
   ];
 
   const benefits = [
-    "Clear, step-by-step roadmap tailored to your business",
-    "Proven systems that eliminate guesswork", 
-    "More predictable revenue streams",
-    "Better work-life balance and reduced stress",
-    "Increased business value for future exit",
-    "Personal support from an experienced entrepreneur",
-    "Access to tested frameworks and templates",
-    "Ongoing accountability to keep you on track"
+    "Explore faith and purpose through Alpha for Business",
+    "Align your business with biblical principles through FDE", 
+    "Connect with supportive community of faith-driven entrepreneurs",
+    "Integrate Kingdom values into daily business decisions",
+    "Discover meaning beyond profit and success",
+    "Personal mentoring from experienced business leader and church elder",
+    "Access to proven faith-driven frameworks",
+    "Ongoing support through local church integration"
   ];
 
   return (
@@ -41,10 +41,10 @@ const TransformationSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Transform Your Business & Your Life
+              Transform Your Business & Your Purpose
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-              Imagine running a business that grows consistently while giving you more time and less stress. 
+              Imagine running a business aligned with Kingdom values, supported by community, and driven by eternal purpose. 
               Here's what becomes possible...
             </p>
           </div>
@@ -101,20 +101,20 @@ const TransformationSection = () => {
           
           <div className="text-center bg-white rounded-2xl p-8 shadow-lg">
             <h3 className="text-3xl font-bold text-gray-900 mb-4">
-              The Result? A Business That Works For You, Not Against You
+              The Result? A Business That Honours God and Serves Others
             </h3>
             <div className="grid md:grid-cols-3 gap-8 mt-8">
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">3-6 months</div>
-                <div className="text-gray-600">To see significant improvements</div>
+                <div className="text-4xl font-bold text-primary mb-2">2 Programmes</div>
+                <div className="text-gray-600">Alpha & FDE tailored to your journey</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">2-5x</div>
-                <div className="text-gray-600">Typical revenue increase</div>
+                <div className="text-4xl font-bold text-primary mb-2">Fully Funded</div>
+                <div className="text-gray-600">Thanks to corporate sponsorship</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary mb-2">50%+</div>
-                <div className="text-gray-600">Reduction in time spent firefighting</div>
+                <div className="text-4xl font-bold text-primary mb-2">Kingdom Impact</div>
+                <div className="text-gray-600">Eternal purpose in your work</div>
               </div>
             </div>
           </div>

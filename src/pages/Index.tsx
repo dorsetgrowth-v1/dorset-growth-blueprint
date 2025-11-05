@@ -3,9 +3,8 @@ import ProblemsSection from "@/components/sections/ProblemsSection";
 import AboutSection from "@/components/sections/AboutSection";
 import ProcessSection from "@/components/sections/ProcessSection";
 import TransformationSection from "@/components/sections/TransformationSection";
-import PricingSection from "@/components/sections/PricingSection";
 import ResultsSection from "@/components/sections/ResultsSection";
-import GuaranteeSection from "@/components/sections/GuaranteeSection";
+import SupportSection from "@/components/sections/SupportSection";
 import BookingSection from "@/components/sections/BookingSection";
 
 const Index = () => {
@@ -17,9 +16,8 @@ const Index = () => {
       <ProcessSection />
       <BookingSection />
       <TransformationSection />
-      <PricingSection />
       <ResultsSection />
-      <GuaranteeSection />
+      <SupportSection />
     </main>
   );
 };

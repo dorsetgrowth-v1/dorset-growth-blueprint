@@ -2,10 +2,10 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const AboutSection = () => {
   const achievements = [
-    { number: "£600k", description: "Scaled stika.co to £600k/year and successfully exited" },
-    { number: "25+", description: "Years of hands-on business building experience" },
-    { number: "£7M+", description: "Generated for clients via proven LinkedIn Outreach strategies" },
-    { number: "170+", description: "B2B businesses transformed with systematic growth" }
+    { number: "35+", description: "Years in church leadership and ministry" },
+    { number: "25+", description: "Years building and scaling businesses" },
+    { number: "170+", description: "Business leaders coached and mentored" },
+    { number: "£7M+", description: "Generated for clients through proven systems" }
   ];
 
   return (
@@ -14,14 +14,14 @@ const AboutSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Your Growth Partner
+              Your Faith & Business Partner
             </h2>
             <h3 className="text-2xl md:text-3xl font-semibold text-gray-700 mb-4">
               Meet Alex Smith
             </h3>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Not just another business coach. A proven entrepreneur who's built, scaled, and sold 
-              businesses while generating millions for clients using systematic approaches.
+              Entrepreneur, church leader, and family man — committed to helping business leaders discover purpose, 
+              integrate faith, and create Kingdom impact through their work.
             </p>
           </div>
           
@@ -37,30 +37,35 @@ const AboutSection = () => {
             
             <div>
               <h4 className="text-2xl font-bold text-gray-900 mb-4">
-                I Know Exactly How You Feel
+                Business & Ministry — A Life of Purpose
               </h4>
               <p className="text-gray-600 mb-4">
-                I've been where you are. Twenty-five years ago, I was grinding away, working endless hours 
-                in my business instead of on it. The stress, the uncertainty, the constant firefighting — I get it.
+                For over 35 years, I've been involved with Baptist and New Frontiers Commission Sphere churches, 
+                holding leadership positions and serving my community. Married with three children, I understand 
+                the balance between family, faith, and business.
               </p>
               <p className="text-gray-600 mb-4">
-                That's why I developed systematic approaches that actually work. I scaled stika.co to £600k/year 
-                and successfully exited. More importantly, I've helped 170+ businesses implement these same 
-                systems to generate over £7 million in results.
+                My business journey spans 25+ years — I've built, scaled, and sold businesses including stika.co 
+                (£600k/year exit). I've also helped 170+ businesses generate over £7 million through proven strategies. 
+                Now, I'm combining this experience with my passion for faith-driven entrepreneurship.
               </p>
               
               <ul className="space-y-3 text-gray-600 mb-6">
                 <li className="flex items-center">
                   <span className="text-primary mr-3">✓</span>
-                  Built & sold multiple businesses
+                  35+ years in church leadership
                 </li>
                 <li className="flex items-center">
                   <span className="text-primary mr-3">✓</span>
-                  170+ B2B clients coached
+                  25+ years business experience
                 </li>
                 <li className="flex items-center">
                   <span className="text-primary mr-3">✓</span>
-                  £7M+ generated for clients
+                  170+ businesses transformed
+                </li>
+                <li className="flex items-center">
+                  <span className="text-primary mr-3">✓</span>
+                  Married with 3 children
                 </li>
               </ul>
               
@@ -84,8 +89,8 @@ const AboutSection = () => {
               
               <div className="bg-blue-50 border-l-4 border-secondary p-4 rounded-r-lg">
                 <p className="text-gray-700 font-medium">
-                  <strong>The difference?</strong> I don't just give you theory. I give you step-by-step systems 
-                  that I've personally used and refined over twenty-five years of building real businesses.
+                  <strong>The difference?</strong> I bring both marketplace experience and Kingdom perspective — 
+                  helping you build businesses that honour God, serve others, and create lasting impact.
                 </p>
               </div>
             </div>
