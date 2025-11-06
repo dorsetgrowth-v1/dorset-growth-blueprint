@@ -37,17 +37,16 @@ const AboutSection = () => {
             
             <div>
               <h4 className="text-2xl font-bold text-gray-900 mb-4">
-                Business & Ministry — A Life of Purpose
+                Led by Someone Who's Been There
               </h4>
               <p className="text-gray-600 mb-4">
-                For over 35 years, I've been involved with Baptist and New Frontiers Commission Sphere churches, 
-                holding leadership positions and serving my community. Married with three children, I understand 
-                the balance between family, faith, and business.
+                Alex Smith is an ISTJ Entrepreneur, Entrepreneurs Circle Certified Coach, and exited founder with 20+ years building businesses in eCommerce (Stika.co: £0 to £500K/year), SaaS (Leadeth.io: £7M+ generated for 160+ clients), and digital marketing.
               </p>
               <p className="text-gray-600 mb-4">
-                My business journey spans 25+ years — I've built, scaled, and sold businesses including stika.co 
-                (£600k/year exit). I've also helped 170+ businesses generate over £7 million through proven strategies. 
-                Now, I'm combining this experience with my passion for faith-driven entrepreneurship.
+                As a faith-driven entrepreneur and Christian, Alex understands the tension between ambition and integrity, profit and purpose. Dorset Growth was born from his own journey of aligning business success with Kingdom impact.
+              </p>
+              <p className="text-gray-600 mb-4">
+                For over 35 years, he's been involved with Baptist and New Frontiers Commission Sphere churches, holding leadership positions and serving his community. Married with three children, he understands the balance between family, faith, and business.
               </p>
               
               <ul className="space-y-3 text-gray-600 mb-6">
@@ -89,8 +88,7 @@ const AboutSection = () => {
               
               <div className="bg-blue-50 border-l-4 border-secondary p-4 rounded-r-lg">
                 <p className="text-gray-700 font-medium">
-                  <strong>The difference?</strong> I bring both marketplace experience and Kingdom perspective — 
-                  helping you build businesses that honour God, serve others, and create lasting impact.
+                  Book a coffee with Alex →
                 </p>
               </div>
             </div>

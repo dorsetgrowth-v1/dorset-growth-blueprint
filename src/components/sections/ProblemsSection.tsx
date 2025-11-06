@@ -3,19 +3,19 @@ import { Card, CardContent } from "@/components/ui/card";
 const ProblemsSection = () => {
   const problems = [
     {
-      title: "Searching for Meaning",
-      description: "Success feels hollow. You've achieved business goals but wonder 'Is this it?' Deep down, you're seeking something more.",
-      example: "Building revenue but feeling empty inside..."
+      title: "The Meaning Gap",
+      description: "Success without significance. You're hitting revenue targets but feeling empty. There's got to be more than this.",
+      example: ""
     },
     {
-      title: "Faith & Business Disconnect", 
-      description: "You want to honour God in your work but don't know how. Struggling to integrate your faith with daily business decisions.",
-      example: "Feeling torn between Kingdom values and marketplace pressures..."
+      title: "The Integration Gap", 
+      description: "Faith and work exist in separate compartments. You don't know how to practically connect Sunday beliefs with Monday decisions.",
+      example: ""
     },
     {
-      title: "Isolated & Unsupported",
-      description: "Running your business alone without community or spiritual support. No one understands the unique challenges you face.",
-      example: "Longing for authentic connection with like-minded entrepreneurs..."
+      title: "The Community Gap",
+      description: "Isolation at the top. Few peers understand both business pressures and faith. You need people who get it.",
+      example: ""
     }
   ];
 
@@ -24,7 +24,7 @@ const ProblemsSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Does This Resonate?
+            Three Gaps Business Leaders Face
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Many business leaders face these challenges on their journey...
@@ -41,9 +41,11 @@ const ProblemsSection = () => {
                 <p className="text-gray-600 mb-4 leading-relaxed">
                   {problem.description}
                 </p>
-                <p className="text-sm text-gray-500 italic">
-                  {problem.example}
-                </p>
+                {problem.example && (
+                  <p className="text-sm text-gray-500 italic">
+                    {problem.example}
+                  </p>
+                )}
               </CardContent>
             </Card>
           ))}
@@ -52,12 +54,8 @@ const ProblemsSection = () => {
         <div className="text-center mt-16">
           <div className="bg-blue-50 border-l-4 border-secondary p-6 max-w-4xl mx-auto rounded-r-lg">
             <h3 className="text-xl font-bold text-gray-900 mb-2">
-              There's a Better Way
+              We bridge these gaps with a proven pathway →
             </h3>
-            <p className="text-gray-700">
-              Imagine running your business with clarity, purpose, and community support — aligned with Kingdom values 
-              and driven by eternal impact. That transformation starts with a conversation.
-            </p>
           </div>
         </div>
       </div>

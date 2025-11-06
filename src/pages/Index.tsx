@@ -1,9 +1,14 @@
 import HeroSection from "@/components/sections/HeroSection";
-import ProblemsSection from "@/components/sections/ProblemsSection";
 import AboutSection from "@/components/sections/AboutSection";
-import ProcessSection from "@/components/sections/ProcessSection";
+import ProblemsSection from "@/components/sections/ProblemsSection";
+import WhoItsForSection from "@/components/sections/WhoItsForSection";
 import TransformationSection from "@/components/sections/TransformationSection";
+import ProcessSection from "@/components/sections/ProcessSection";
+import HowItWorksSection from "@/components/sections/HowItWorksSection";
 import ResultsSection from "@/components/sections/ResultsSection";
+import TestimonialsSection from "@/components/sections/TestimonialsSection";
+import PartnersSection from "@/components/sections/PartnersSection";
+import FAQSection from "@/components/sections/FAQSection";
 import SupportSection from "@/components/sections/SupportSection";
 import BookingSection from "@/components/sections/BookingSection";
 
@@ -12,12 +17,17 @@ const Index = () => {
     <main>
       <HeroSection />
       <ProblemsSection />
-      <AboutSection />
       <ProcessSection />
-      <BookingSection />
+      <WhoItsForSection />
       <TransformationSection />
+      <HowItWorksSection />
+      <AboutSection />
       <ResultsSection />
+      <TestimonialsSection />
+      <PartnersSection />
+      <FAQSection />
       <SupportSection />
+      <BookingSection />
     </main>
   );
 };

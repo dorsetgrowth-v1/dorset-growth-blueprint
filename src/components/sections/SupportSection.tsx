@@ -24,14 +24,11 @@ const SupportSection = () => {
               </div>
               
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Thanks to the generous support of corporate sponsors, <strong>Dorset Growth is completely free</strong> 
-                for all participants. There's no cost to join Alpha for Business or the Faith Driven Entrepreneur 
-                Foundation Programme.
+                The 15-minute prayer call is completely free. Alpha for Business and the FDE Programme have optional contributions (£50-£400) to cover materials, but scholarships are available. <strong>Never let cost be the barrier.</strong>
               </p>
               
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Our mission is to help business leaders across Dorset discover purpose, integrate faith, 
-                and create Kingdom impact — and we're committed to removing all financial barriers.
+                Thanks to the generous support of corporate sponsors, our programmes are accessible to all. Our mission is to help business leaders across Dorset discover purpose, integrate faith, and create Kingdom impact.
               </p>
               
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
@@ -69,7 +66,7 @@ const SupportSection = () => {
                   className="text-sm md:text-lg px-6 md:px-12 py-4 md:py-5 mb-4 w-full max-w-md mx-auto" 
                   onClick={scrollToBooking}
                 >
-                  Book Your Free Virtual Coffee
+                  Book Your Free Prayer Call
                 </Button>
                 <div className="text-white/80 text-sm">
                   Takes less than 2 minutes to book • Available this week

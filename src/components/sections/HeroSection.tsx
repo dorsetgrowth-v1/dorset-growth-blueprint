@@ -28,15 +28,14 @@ const HeroSection = () => {
         <article className="max-w-4xl mx-auto text-center">
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Build a Business
+            Where Business
             <br />
-            <span className="text-white">With Purpose & Impact.</span>
+            <span className="text-white">Meets Purpose</span>
           </h1>
           
           {/* Subheadline */}
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-3xl mx-auto leading-relaxed">
-            Discover how faith, integrity, and Kingdom purpose can transform your business. 
-            Connect with meaning, community, and lasting impact.
+            Helping Dorset entrepreneurs discover faith, integrate Christian values, and build Kingdom-aligned businesses that create lasting impact.
           </p>
           
           {/* Primary CTA */}
@@ -47,7 +46,7 @@ const HeroSection = () => {
               className="text-sm md:text-lg px-6 md:px-12 py-4 md:py-5 mb-4 w-full max-w-md mx-auto"
               onClick={scrollToBooking}
             >
-              Book Your Free Virtual Coffee
+              Book Your 15-Min Prayer Call
             </Button>
             <div className="text-white/80 text-sm">
               Explore Alpha for Business • FDE Programme • 100% confidential
@@ -72,7 +71,7 @@ const HeroSection = () => {
           
           {/* Secondary CTA */}
           <Button variant="cta-secondary" size="lg" className="text-sm md:text-lg px-6 md:px-8 py-2 md:py-3 w-full max-w-xs mx-auto" onClick={scrollToAbout}>
-            Learn More
+            Learn About Our Pathway
           </Button>
         </article>
       </div>

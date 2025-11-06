@@ -9,27 +9,31 @@ const ProcessSection = () => {
   const steps = [
     {
       number: "1",
-      title: "15-Minute Prayer Call",
-      description: "Start with a confidential conversation — explore your business challenges and spiritual journey.",
-      duration: "Free & confidential"
+      title: "Discover (Week 1)",
+      subtitle: "15-Minute Prayer Call",
+      description: "A low-pressure, high-value conversation. No sales pitch—just authentic connection. Book yours today and experience the difference.",
+      duration: ""
     },
     {
       number: "2", 
-      title: "Alpha for Business",
-      description: "For those exploring faith or new Christians — discover purpose and meaning through Alpha's proven approach.",
-      duration: "Quarterly cohorts"
+      title: "Explore (Weeks 2-12)",
+      subtitle: "Alpha for Business",
+      description: "A safe space to question, discuss, and explore faith in a business context. Quarterly cohorts available online or in-person.",
+      duration: ""
     },
     {
       number: "3",
-      title: "FDE 8-Week Foundation", 
-      description: "For Christian entrepreneurs — align your business with biblical principles through Faith Driven Entrepreneur programme.",
-      duration: "8-week study groups"
+      title: "Develop (Weeks 13-20)",
+      subtitle: "Faith Driven Entrepreneur Programme",
+      description: "8 weeks of structured discipleship covering identity, calling, integrity, generosity, and eternal perspective. Peer accountability included.",
+      duration: ""
     },
     {
       number: "4",
-      title: "Local Church Integration",
-      description: "Connect with local church communities for ongoing support, fellowship, and Kingdom impact.",
-      duration: "Ongoing support"
+      title: "Integrate (Ongoing)",
+      subtitle: "Local Church Connection",
+      description: "Sustainable spiritual growth through church community, ongoing coaching, and an alumni network of purpose-driven leaders.",
+      duration: ""
     }
   ];
 
@@ -39,11 +43,10 @@ const ProcessSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Your Faith & Business Journey
+              Your Journey: From First Call to Lasting Transformation
             </h2>
-            <h3 className="text-2xl text-gray-700 mb-4">Four Steps to Purpose-Driven Business</h3>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Whether you're exploring faith or seeking to align your business with Kingdom values, we'll meet you where you are.
+              A clear pathway from discovery to integration
             </p>
           </div>
           
@@ -56,15 +59,20 @@ const ProcessSection = () => {
                       {step.number}
                     </div>
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-4 mt-4">
+                  <h3 className="text-xl font-bold text-gray-900 mb-2 mt-4">
                     {step.title}
                   </h3>
+                  <h4 className="text-lg font-semibold text-primary mb-3">
+                    {step.subtitle}
+                  </h4>
                   <p className="text-gray-600 mb-4">
                     {step.description}
                   </p>
-                  <div className="text-sm text-primary font-semibold">
-                    {step.duration}
-                  </div>
+                  {step.duration && (
+                    <div className="text-sm text-primary font-semibold">
+                      {step.duration}
+                    </div>
+                  )}
                 </CardContent>
               </Card>
             ))}
@@ -72,16 +80,16 @@ const ProcessSection = () => {
           
           <div className="text-center bg-hero-gradient rounded-2xl p-12 text-white">
             <h3 className="text-3xl font-bold mb-4">
-              Ready to Discover Purpose in Your Business?
+              Start Your Journey Today
             </h3>
             <p className="text-xl mb-8 text-white/90">
-              Book your free virtual coffee chat today. Explore Alpha for Business or the FDE Programme — discover which path is right for you.
+              Start with a prayer call—see where it leads →
             </p>
             <Button variant="cta" size="lg" className="text-sm md:text-lg px-6 md:px-12 py-4 md:py-5 mb-4 w-full max-w-md mx-auto" onClick={scrollToBooking}>
-              Yes, Book My Free Virtual Coffee
+              Book Your 15-Min Prayer Call
             </Button>
             <div className="text-white/80 text-sm">
-              100% confidential • Fully funded programme • No cost to you
+              No commitment, no pressure—just a conversation
             </div>
           </div>
         </div>
