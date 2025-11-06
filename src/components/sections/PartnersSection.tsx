@@ -21,10 +21,6 @@ const PartnersSection = () => {
     {
       name: "Good Business Charter",
       description: "Ethical business accreditation"
-    },
-    {
-      name: "Federation of Small Businesses",
-      description: "Business community access"
     }
   ];
 
