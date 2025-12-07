@@ -11,6 +11,7 @@ import PartnersSection from "@/components/sections/PartnersSection";
 import FAQSection from "@/components/sections/FAQSection";
 import SupportSection from "@/components/sections/SupportSection";
 import BookingSection from "@/components/sections/BookingSection";
+import FooterSection from "@/components/sections/FooterSection";
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
       <FAQSection />
       <SupportSection />
       <BookingSection />
+      <FooterSection />
     </main>
   );
 };
