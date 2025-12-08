@@ -33,7 +33,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/coffee" element={<ExternalRedirect url="https://meet.dorsetgrowth.com/widget/booking/Alij8mHLPjxNUuNfsyDe" />} />
-          <Route path="/discovery" element={<ExternalRedirect url="https://meet.dorsetgrowth.com/widget/booking/s7VsFwBVA34IuOqFfZWC" />} />
+          <Route path="/discovery" element={<ExternalRedirect url="https://meet.dorsetgrowth.com/widget/bookings/ec-disco" />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
